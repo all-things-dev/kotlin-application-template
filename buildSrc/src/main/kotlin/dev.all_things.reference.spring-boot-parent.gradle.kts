@@ -19,6 +19,7 @@ version = "1.0.0-SNAPSHOT"
 
 // Spring Boot dependency overrides
 extra["slf4j.version"] = "2.0.9"
+extra["hibernate.version"] = "6.3.1"
 
 // Enabled by 'Java' plugin
 java {

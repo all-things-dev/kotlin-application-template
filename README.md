@@ -5,8 +5,8 @@ Template for developing future Kotlin applications.
 
 1. JDK 21 + Kotlin 1.9
 2. Gradle 8.4
-3. Spring Boot 3.1
-4. Apache Tomcat 10.1
+3. Spring Boot 3.2
+4. Apache Tomcat 11.0
 
 ## Important Design Decisions
 
