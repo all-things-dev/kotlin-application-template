@@ -34,3 +34,6 @@ dependencyResolutionManagement {
 	}
 }
 
+// Project modules
+include("web-app")
+
