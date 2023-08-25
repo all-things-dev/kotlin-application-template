@@ -1,3 +1,6 @@
+import gradle.kotlin.dsl.accessors._1ecb499e70f6c048b872e24ac296635d.implementation
+import gradle.kotlin.dsl.accessors._1ecb499e70f6c048b872e24ac296635d.java
+import gradle.kotlin.dsl.accessors._1ecb499e70f6c048b872e24ac296635d.testImplementation
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 // Plugins common for submodules
@@ -33,7 +36,7 @@ java {
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(26)
+	jvmToolchain(27)
 
 	compilerOptions {
 		freeCompilerArgs.add("-Xjsr305=strict")
