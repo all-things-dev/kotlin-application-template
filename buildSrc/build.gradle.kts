@@ -24,7 +24,7 @@ java {
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(25)
+	jvmToolchain(26)
 
 	compilerOptions {
 
@@ -37,8 +37,8 @@ kotlin {
 dependencies {
 
 	// Kotlin
-	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.10")
-	implementation("org.jetbrains.kotlin:kotlin-allopen:2.3.10")
+	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.20-RC2")
+	implementation("org.jetbrains.kotlin:kotlin-allopen:2.3.20-RC2")
 
 	// Spring Boot
 	implementation("org.springframework.boot:spring-boot-gradle-plugin:4.0.3")
