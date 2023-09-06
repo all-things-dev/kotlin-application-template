@@ -17,6 +17,9 @@ plugins {
 group = "dev.all_things.reference"
 version = "1.0.0-SNAPSHOT"
 
+// Spring Boot dependency overrides
+extra["slf4j.version"] = "2.0.9"
+
 // Enabled by 'Java' plugin
 java {
 	sourceCompatibility = JavaVersion.VERSION_20
