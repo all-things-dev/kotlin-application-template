@@ -10,5 +10,6 @@ dataSources
 # Gradle generated files
 .gradle
 buildSrc/build
+web-app/build
 
 # Generated files
