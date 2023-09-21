@@ -14,7 +14,7 @@ plugins {
 	kotlin("plugin.spring")
 }
 
-group = "dev.all_things.reference"
+group = "dev.all-things.reference"
 version = "1.0.0-SNAPSHOT"
 
 // Spring Boot dependency overrides
