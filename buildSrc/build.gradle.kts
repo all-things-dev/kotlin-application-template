@@ -37,8 +37,8 @@ kotlin {
 dependencies {
 
 	// Kotlin
-	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.20-RC2")
-	implementation("org.jetbrains.kotlin:kotlin-allopen:1.9.20-RC2")
+	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.20")
+	implementation("org.jetbrains.kotlin:kotlin-allopen:1.9.20")
 
 	// Spring Boot
 	implementation("org.springframework.boot:spring-boot-gradle-plugin:3.1.4")
