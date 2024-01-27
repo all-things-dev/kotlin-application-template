@@ -54,14 +54,7 @@ dependencies {
 		// Disabling default 'logback' logging in favor of Log4j2
 		exclude("org.springframework.boot", "spring-boot-starter-logging")
 
-		/**
-		 * Disabling (unused but) vulnerable snakeyaml v1.33 dependency due to CVE-2022-41854 and CVE-2022-1471.
-		 *
-		 * CVE-2022-41854 6.5 Out-of-bounds Write vulnerability with medium severity found
-		 * CVE-2022-1471 9.8 Deserialization of Untrusted Data vulnerability with high severity found
-		 *
-		 * Spring Boot v3.2.0 fixes the vulnerability.
-		 */
+		// Disabling (unused) snakeyaml dependency
 		exclude("org.yaml", "snakeyaml")
 	}
 
