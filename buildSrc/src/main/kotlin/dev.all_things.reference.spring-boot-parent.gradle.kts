@@ -53,7 +53,7 @@ dependencies {
 
 	// Logging
 	implementation("org.springframework.boot:spring-boot-starter-log4j2")
-	implementation("com.lmax:disruptor:3.4.4") // Required by Log4j2 for asynchronous logging
+	implementation("com.lmax:disruptor:4.0.0") // Required by Log4j2 for asynchronous logging
 
 	// Spring framework
 	implementation("org.springframework.boot:spring-boot-starter-web") {
