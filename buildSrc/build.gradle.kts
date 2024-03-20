@@ -24,10 +24,11 @@ java {
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(21)
+	jvmToolchain(22)
 
 	compilerOptions {
 
+		// Kotlin target compatibility
 		jvmTarget = JvmTarget.JVM_21
 	}
 }

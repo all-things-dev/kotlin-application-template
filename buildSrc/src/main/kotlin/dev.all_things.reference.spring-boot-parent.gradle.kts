@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 // Plugins common for sub-modules
 plugins {
 
@@ -23,16 +25,21 @@ extra["slf4j.version"] = "2.0.9"
 // Enabled by 'Java' plugin
 java {
 
+	// Java target compatibility
+	targetCompatibility = JavaVersion.VERSION_21
 }
 
 // Enabled by 'Kotlin' plugin
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(21)
+	jvmToolchain(22)
 
 	compilerOptions {
 		freeCompilerArgs.add("-Xjsr305=strict")
+
+		// Kotlin target compatibility
+		jvmTarget = JvmTarget.JVM_21
 	}
 }
 
