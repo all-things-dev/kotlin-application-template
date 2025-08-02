@@ -3,9 +3,9 @@ Template for developing future Kotlin applications.
 
 ## System Requirements
 
-1. JDK 21 + Kotlin 1.9
+1. JDK 22 + Kotlin 2.0
 2. Gradle 8.5
-3. Spring Boot 3.2
+3. Spring Boot 3.5
 4. Apache Tomcat 10.1
 
 ## Important Design Decisions
