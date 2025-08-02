@@ -1,6 +1,5 @@
 package config
 
-import org.apache.logging.log4j.LogManager
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.builder.SpringApplicationBuilder
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan
@@ -14,8 +13,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication(scanBasePackages = ["config", "dev.workingtheory"])
 public class Application : SpringBootServletInitializer()
 {
-	private val logger = LogManager.getLogger(Application::class.java)
-
 	/**
 	 * Configures {@link #main} as starting point of the application.
 	 *

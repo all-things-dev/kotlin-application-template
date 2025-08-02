@@ -12,6 +12,7 @@ gradle
 
 # Gradle generated files
 .gradle
+build
 buildSrc/build
 web-app/build
 

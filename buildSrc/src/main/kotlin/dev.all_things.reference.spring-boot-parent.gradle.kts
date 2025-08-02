@@ -26,20 +26,20 @@ extra["slf4j.version"] = "2.0.12"
 java {
 
 	// Java target compatibility
-	targetCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_24
 }
 
 // Enabled by 'Kotlin' plugin
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(22)
+	jvmToolchain(24)
 
 	compilerOptions {
 		freeCompilerArgs.add("-Xjsr305=strict")
 
 		// Kotlin target compatibility
-		jvmTarget = JvmTarget.JVM_21
+		jvmTarget = JvmTarget.JVM_24
 	}
 }
 
