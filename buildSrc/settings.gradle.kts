@@ -1,3 +1,5 @@
+rootProject.name = "buildSrc"
+
 // Global plugin management
 pluginManagement {
 	// Project level repositories for plugins
