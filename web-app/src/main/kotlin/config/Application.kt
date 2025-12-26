@@ -10,7 +10,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * Acts as the entry point of the application and allows configuration of application startup properties.
  */
 @ConfigurationPropertiesScan
-@SpringBootApplication(scanBasePackages = ["config", "dev.workingtheory"])
+@SpringBootApplication(scanBasePackages = ["config", "dev.all_things"])
 public class Application : SpringBootServletInitializer()
 {
 	/**

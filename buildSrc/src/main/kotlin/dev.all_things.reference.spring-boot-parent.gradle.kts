@@ -56,17 +56,21 @@ dependencies {
 	implementation("com.lmax:disruptor:4.0.0") // Required by Log4j2 for asynchronous logging
 
 	// Spring framework
-	implementation("org.springframework.boot:spring-boot-starter-web") {
+	implementation("org.springframework.boot:spring-boot-starter-web")
 
-		// Disabling default 'logback' logging in favor of Log4j2
-		exclude("org.springframework.boot", "spring-boot-starter-logging")
-
-		// Disabling (unused) snakeyaml dependency
-		exclude("org.yaml", "snakeyaml")
-	}
-
+	// Kotlin
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 
 	// Testing
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+}
+
+configurations {
+	all {
+		// Disabling default 'logback' logging in favor of Log4j2
+		exclude(group = "org.springframework.boot", module = "spring-boot-starter-logging")
+
+		// Disabling (unused) SnakeYAML dependency
+		exclude(group = "org.yaml", module = "snakeyaml")
+	}
 }
