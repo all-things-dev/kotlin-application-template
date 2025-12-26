@@ -24,7 +24,7 @@ java {
 kotlin {
 
 	// JDK specific toolchain configuration
-	jvmToolchain(24)
+	jvmToolchain(25)
 
 	compilerOptions {
 
