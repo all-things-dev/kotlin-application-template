@@ -20,7 +20,7 @@ group = "dev.all-things.reference"
 version = "1.0.0-SNAPSHOT"
 
 // Spring Boot dependency overrides
-extra["slf4j.version"] = "2.0.12"
+// extra["slf4j.version"] = "2.0.12"
 
 // Enabled by 'Java' plugin
 java {
