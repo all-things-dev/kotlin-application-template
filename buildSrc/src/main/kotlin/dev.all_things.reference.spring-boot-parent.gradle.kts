@@ -1,6 +1,6 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
-// Plugins common for sub-modules
+// Plugins common for submodules
 plugins {
 
 	// Spring Boot plugin configuration
@@ -48,7 +48,7 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-// Dependencies common for sub-modules
+// Dependencies common for submodules
 dependencies {
 
 	// Logging
