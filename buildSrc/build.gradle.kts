@@ -41,5 +41,5 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-allopen:2.3.20")
 
 	// Spring Boot
-	implementation("org.springframework.boot:spring-boot-gradle-plugin:4.0.3")
+	implementation("org.springframework.boot:spring-boot-gradle-plugin:4.0.5")
 }
