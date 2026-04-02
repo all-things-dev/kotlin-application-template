@@ -13,9 +13,6 @@ pluginManagement {
 
 		// Gradle plugin repository
 		gradlePluginPortal()
-
-		// Spring repository for milestone plugins
-		maven("https://repo.spring.io/milestone")
 	}
 }
 
@@ -34,9 +31,6 @@ dependencyResolutionManagement {
 
 		// Maven Central (primary) artifact repository
 		mavenCentral()
-
-		// Spring repository for milestone artifacts
-		maven("https://repo.spring.io/milestone")
 	}
 }
 
