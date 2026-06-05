@@ -26,7 +26,7 @@ version = "1.0.0-SNAPSHOT"
 java {
 
 	// Java target compatibility
-	targetCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_26
 }
 
 // Enabled by 'Kotlin' plugin
@@ -39,7 +39,7 @@ kotlin {
 		freeCompilerArgs.add("-Xjsr305=strict")
 
 		// Kotlin target compatibility
-		jvmTarget = JvmTarget.JVM_25
+		jvmTarget = JvmTarget.JVM_26
 	}
 }
 
